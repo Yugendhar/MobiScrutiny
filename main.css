@@ -1,0 +1,328 @@
+
+body{
+	min-width: 968px;
+	background: #F1F1F1;
+}
+/* Header */
+#header {
+    background-color:#98280E;
+    color:white;
+    text-align:center; 
+	min-height : 140px;
+	padding : 5px;
+	margin:0;
+	width: 100%;
+	border :2px solid greenyellow;
+	min-width: 978px;
+	/*position : fixed;*/
+}
+
+.trends
+{
+	float:left;
+	 /*border: 1px solid grey;*/
+	 border-top: 1px solid #ccc;
+	 min-width: 968px;
+	 margin: 10px 10px 10px 0px;
+}
+#header ul li:hover{ background-color: #000;}
+#header ul li:hover a{ color: #fff; }
+#header ul li.active{ background-color: #333; }
+#header ul li.active a{ color: #fff; }
+
+.active
+{
+	color: #fff;
+}
+#submenu
+{
+	margin-right: 50px;
+}
+.droplinemenu #submenu li{
+    position: relative;
+	display :inline;
+	padding : 10px;
+    top: -7px;
+    height: 44px;
+
+    /* padding-bottom: 1px; */
+    /* mar	gin-bottom: 1em; */
+}
+#submenu li a
+{
+	color: white;
+}
+#header .menu
+{
+margin-top : 50px;
+min-width: 968px;
+}
+#header .menu li{
+border-radius:5px;
+display :inline;
+padding : 10px;
+border : 2px solid #DFCBCB;
+margin : 10px;
+}
+	
+
+#header .menu li a{
+font-weight : bold;
+color : #DFCBCB; 
+text-decoration :none;
+}
+
+#header .menu li a:hover
+  {
+    color:greenyellow;
+    text-decoration:none;
+    cursor:pointer;
+   }
+   
+
+#header  #logo
+{
+ float :left;
+
+ display :block;
+ width:130px;
+height:135px;
+	margin-left: 20px;
+}
+/* Footer Part */
+footer {
+    background-color:#98280E;
+    color:white;
+    clear:both;
+	bottom : 0;
+	position :absolute;
+	min-width : 968px;
+    text-align:center;
+	padding:5px;	 
+	height : 6em;   
+	position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	/*max-height: 150px;*/
+	
+}
+
+/* Search Box */
+.search
+{
+display: block;
+padding: 10px;
+
+width: 47%;
+margin: 16px;
+float: right;
+max-height: 90px;
+
+}
+.searchform
+{ 
+margin-left:70px;
+max-height: 100px;
+}
+
+/* Body Images */
+.imageset 
+{
+    margin-left: 20px;
+    margin-right:20px;
+}
+div.img {
+    margin: 20px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+padding: 10px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 180px;
+    height: 200px;
+}
+
+div.desc {
+   padding: 15px;
+border-top: 1px solid #ccc;
+text-align: center;
+line-height: 25px;
+}
+a:hover{
+cursor :pointer;
+}
+.slideimg
+{
+display : none;
+max-width :50 px; 
+margin-left:auto;
+margin-right:auto;
+height: 300px;
+}
+
+/*Feed back */
+h2
+{
+	text-align: center;
+}
+.feedbackform
+{
+	width: 550;
+	margin: 50 auto;
+	box-shadow: 0px 0px 10px 10px #888888;
+	border: 2px solid black;
+	background: #f2f2f2;
+	margin-bottom: 200px;
+}
+.feedbackform table
+{
+	margin: 50px;
+	margin-right: 20px;
+}
+.feedbackform label
+{
+	font-weight: bold;
+	min-width: 500px;
+}
+
+.feedbackform input
+{
+	margin: 5px;
+	min-width: 300px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding : 10px;
+}
+.feedbackform button
+{
+	margin: 5px;
+	border: 2px solid black;
+	margin-left: 100px;
+	padding: 10px;
+	min-width: 100px;
+	background: #98280E;
+	color:white;
+	font-weight: bold;
+	box-shadow: 0px 0px 30px black;
+}
+.feedbackform button a
+{
+text-decoration: none;
+color: white;
+}
+.textarea
+{
+	vertical-align: middle;
+}
+textarea
+{
+	width: 300px;
+	min-height: 200px;
+	margin: 5px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding: 10px;
+}
+/* Accessories */
+.accessory th, td {
+    text-align: left-side;
+    padding: 8px;
+} 
+
+.accessory tr:nth-child(even){background-color: lightgrey}
+
+.accessory th {
+    background-color: #4CAF50;
+    color: white;
+    min-width: 119px;
+}
+.accessory
+{
+	box-shadow: 0 0 25px black;
+	height: 450px;
+	margin: 50px;
+	min-width: 900px;
+}
+.accessory img
+{
+	margin : 20px;
+	margin-left: 70px;
+	margin-right: 0px;
+}
+
+.accessory table
+{
+	margin : 20px;
+	border: 1px solid grey;
+	border-collapse: collapse;
+    width: 50%;
+    align: right;
+}
+
+.accessory tr
+{
+	border: 1px solid grey;
+}
+.accessoryset
+{
+  margin-bottom: 200px;
+}
+
+/* Contact Us */
+
+.contact
+{
+
+	margin: 50px;
+	box-shadow: 0px 0px 5px 5px #888888;
+	padding: 20px;
+	margin-bottom: 200px;
+}
+/*videos */
+.vid
+{
+font-weight: bold; 
+padding: 10px;
+ margin: 50px;
+width : 650px; 
+ box-shadow: 0 0 20px grey
+}
+.vid p 
+{
+	padding: 5px;
+	margin:10px;
+}
+
+/*  Mobiles  */
+body {
+        font-family: 'Open Sans', sans-serif;
+      }
+.search_field{
+padding: 7px;
+width: 73%;
+border: 4px solid #ccc;
+border-radius: 5px;
+
+}
+.searchBtn{
+	
+border: 2px solid #DFCBCB;
+padding: 6px;
+color: #DFCBCB; 
+border-radius: 5px;
+margin-right: 15px;
+min-width: 9%;
+height: 100%;
+}
+.trend_title{
+	text-align: center;
+color: #333;
+border-bottom: 1px solid #ccc;
+padding-bottom: 12px;
+font-size: 22px;
+}
