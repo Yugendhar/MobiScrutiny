@@ -1,14 +1,15 @@
 <html>
-<body>
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Mobile Accessories Page - A Best Mobile Arena">
     <meta name="keywords" content="iphone,nokia,micromax,htc,sony">
     <meta name="author" content="Yenugu">
     <link rel="stylesheet" type="text/css" href="main.css">
-  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="main.js"></script>
 </head>
+<body>
 <div id="header">
 <img id="logo" src="Images\logo_final.png" alt="Mobifi-U" style="width:130px;height:135px  ;">
 <ul class="menu">
@@ -20,7 +21,15 @@
   <li><a href="feedback.html">Feedback</a></li>
   <li><a href="contactus.html">Contact US</a></li>
 <ul>
+<div class="search" id="searchBar">
+         <form method="get" class="searchform" name="searchform" action="http://www.google.com/search" target="_blank">
+            <input type="text" class="search_field" placeholder="Search Accessories Here..." 
+            onfocus="if (this.value == 'Search Accessories Here...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search Accessories...';}">
+            <i class="fa fa-search searchBtn"></i>
+         </form>
+      </div>
 </div>
+<br>
 <h2>Accessories Specifications</h2>
 <div class="accessoryset">
 <div class="accessory">
